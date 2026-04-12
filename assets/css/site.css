@@ -254,9 +254,10 @@ li {
 }
 
 .split-section h2 {
-  font-size: clamp(1.5rem, 2.4vw, 2.35rem);
+  font-size: clamp(1.45rem, 2vw, 2.05rem);
   line-height: 1.12;
-  max-width: 12ch;
+  max-width: 16ch;
+  margin-bottom: 0.85rem;
 }
 
 .stats-panel {
@@ -358,6 +359,23 @@ li {
 
 .split-section {
   margin-top: 2.2rem;
+  align-items: start;
+  gap: 2.5rem;
+}
+
+.split-section .panel {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.35rem;
+  padding-bottom: 0;
+}
+
+.split-section p {
+  max-width: 34ch;
+  margin-top: 0;
 }
 
 .category-strip {
